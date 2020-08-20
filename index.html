@@ -1,23 +1,53 @@
 <!DOCTYPE html>
 <head>
-    <p>This is the header</p>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="./script.js" defer=""></script>
 </head>
 
 <body>
-    <div class="content" id="main">
-        <p>This is the body</p>
-    
-        <img alt="Google logo text"
-        height="92
-        src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" >
-
+    <div class="nav-bar">
+      <div class="left">
+        <a href="#">About</a>
+        <a href="#">Store</a>
+      </div>
+      <div class="middle"></div>
+      <div class="right">
+        <a href="#">Gmail</a>
+        <a href="#">Images</a>
+        <img src="https://static.thenounproject.com/png/3095017-200.png" class="apps" alt="apps">
+        <img class="pp" src="https://lh3.googleusercontent.com/ogw/ADGmqu9V-6HksSq-N97VUHWMnPzRLmdOq8CJo6Vm9yXH=s32-c-mo" alt="profile picture">
+      </div>
     </div>
-    <div><p>Search Bar</p></div>
-    <div class ="Buttons"></div>
-        <input value="Google Search" type="submit" aria-label="Google Search">
-        <input value="I'm Feeling Lucky" type="submit" aria-label="I'm Feeling Lucky">
+    <main>
+      <div class="scontainer">
+        <img class="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+        <div class="bcontainer">
+          <span class="material-icons srchicon">search</span>
+          <input type="text" class="sbar">
+        </div>
+        <div class="bottomcontainer">
+          <button class="search-button">Google Search</button>
+          <button class="search-button">I'm Feeling Lucky</button>
+        </div>
+      </div>
+    </main>
+    <div class="footer">
+      <div class="leftf">
+        <p>Advertising</p>
+        <p>Business</p>
+        <p>How Search Works</p>
+      </div>
+      <div class="rightf">
+        <p>Privacy</p>
+        <p>Terms</p>
+        <p>Settings</p>
+      </div>
     </div>
+</body>
 
+</html>
 
-    <div><p>This is the footer</p></div>
- </body>
